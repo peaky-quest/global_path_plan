@@ -23,6 +23,26 @@ Dijkstra Algorithm
 
 The Dijkstra algorithm, also known as the shortest path first algorithm, is an algorithm that finds the shortest path between nodes in a graph. It does not use heuristics like A*, but instead iteratively selects the node with the smallest cost and expands its neighbors until the goal node is reached. Although the Dijkstra algorithm guarantees finding the shortest path, it may be slower than A* for large graphs due to the lack of heuristics.
 
+
+# Installation and Usage
+
+To use the packages in this repository, please follow these steps:
+
+1. Clone the repository to your local machine:
+2. Install the required dependencies for the path planning and TurtleBot control packages. Ensure that you have the necessary dependencies and libraries installed to successfully run the code.
+3. Build the packages using the appropriate build system for your ROS installation
+4. To run the simulation use the folowing command
+   $ cd catkin_ws
+   $ catkin_make
+   $ source devel/setup.bash
+   $ roslaunch global_path_plan mbot_simulation.launch
+
+5. *For A_star launch the*
+   roslaunch global_path_plan a_star.launch
+
+6. *For Dijkstra launch the*
+   roslaunch global_path_plan dijkstra.launch
+
 # License
 
 This repository is released under the MIT License. Feel free to modify, distribute, and use the code in accordance with the terms and conditions specified in the license.
