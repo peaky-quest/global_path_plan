@@ -33,14 +33,18 @@ To use the packages in this repository, please follow these steps:
 3. Build the packages using the appropriate build system for your ROS installation
 4. To run the simulation use the folowing command
    $ cd catkin_ws
+   
    $ catkin_make
+   
    $ source devel/setup.bash
+   
    $ roslaunch global_path_plan mbot_simulation.launch
+   
 
-5. *For A_star launch the*
+6. *For A_star launch the*
    roslaunch global_path_plan a_star.launch
 
-6. *For Dijkstra launch the*
+7. *For Dijkstra launch the*
    roslaunch global_path_plan dijkstra.launch
 
 # License
