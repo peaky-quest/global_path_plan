@@ -2,7 +2,7 @@
 <!-- High level launch file for Unit 2 Simulation  -->
 <launch>
 
-<env name="GAZEBO_MODEL_PATH" value="$(find unit2_pp)/models/" />
+<env name="GAZEBO_MODEL_PATH" value="$(find global_path_plan)/models/" />
 
 <arg name="use_gui" default="true"/>
 
