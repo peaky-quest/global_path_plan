@@ -47,6 +47,13 @@ To use the packages in this repository, please follow these steps:
 7. *For Dijkstra launch the*
    roslaunch global_path_plan dijkstra.launch
 
+
+  ** cannot launch node of type [global_path_plan/dijkstra_server.py]: Cannot locate node of type [dijkstra_server.py] in package [global_path_plan]. Make sure file exists in package path and permission is set to executable (chmod +x) **
+
+  **run the following command to give the permission**
+chmod +x global_path_plan/global_path_plan/scripts/dijkstra_server.py
+
+
 # License
 
 This repository is released under the MIT License. Feel free to modify, distribute, and use the code in accordance with the terms and conditions specified in the license.
